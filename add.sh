@@ -1,13 +1,20 @@
 #!/bin/bash
 
-# Ask user for first number
-echo "Enter first number:15"
+# Ask user for dividend
+echo "Enter dividend: 80"
+read dividend
+# Ask user for divisor
+echo "Enter divisor:20 "
 
-# Ask user for second number
-echo "Enter second number: 20"
+# Check for division by zero
+if [ $20 -eq 0 ]; then
+  echo "Error: Division by zero is not allowed"
+else
+  # Perform division
+  quotient=$((80 / 20))
+  remainder=$((80 % 20))
 
-# Perform addition
-prod=$((15 * 20))
-
-# Display result
-echo "product: $prod"
+  # Display result
+  echo "Quotient: $quotient"
+  echo "Remainder: $remainder"
+fi
