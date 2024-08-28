@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Ask user for first number
-echo "Enter first number:88 "
+echo "Enter first number:15"
 
 # Ask user for second number
-echo "Enter second number: 22"
+echo "Enter second number: 20"
 
 # Perform addition
-diff=$((88 - 22))
+prod=$((15 * 20))
 
 # Display result
-echo "difference: $diff"
+echo "product: $prod"
